@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <TableRow
+        android:id="@+id/titlerowId"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_span="5"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Student Details"
+            android:textColor="@color/colorWhite"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/headerId"
+        android:background="#0778bb"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="First Name"
+        android:textSize="16dp"
+        android:layout_height="20dp"
+        />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Last Name"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Location"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Username"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Password"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Image"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/DataId2"
+        android:background="@color/colorWhite"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Ferdous"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Hassan"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="khulna"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Ferdous"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="3763"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <Button
+            android:id="@+id/fimg"
+            android:text="View Image"
+            android:textSize="10dp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/DataId3"
+        android:background="@color/colorWhite"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="sourav"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="ghosh"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Satkhira"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="sourav"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="9860"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <Button
+            android:id="@+id/simg"
+            android:text="View Image"
+            android:textSize="10dp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/DataId4"
+        android:background="@color/colorWhite"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="sadia"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="joyty"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Rangpur"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="sadia80"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="2794"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <Button
+            android:id="@+id/saimg"
+            android:text="View Image"
+            android:textSize="10dp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/DataId"
+        android:background="@color/colorWhite"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Arijul"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Islam"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Satkhira"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="souvon420"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="1234"
+            android:textSize="16dp"
+            android:layout_height="20dp"
+            />
+        <Button
+            android:id="@+id/aimg"
+            android:text="View Image"
+            android:textSize="10dp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_gravity="center_horizontal"
+            android:layout_span="5"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Logout"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+</TableLayout>
